@@ -1,0 +1,6 @@
+TODO :
+
+- Trouver comment choisir le comportement des cellules.
+- Vraiment impossible de simplifier le diagramme uml ?
+    (genre on enleve la classe gene pour la transformer en attribut de la classe cell)
+
