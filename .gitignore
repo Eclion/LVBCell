@@ -1,5 +1,4 @@
 #git ignore
 
-*.pro
-*.user
+*.pro.user
 
