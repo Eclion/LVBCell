@@ -14,7 +14,7 @@ void Environment::addCell(Cell *c){
 }
 
 bool Environment::isPlaceFree(int coord[3]){
-    for(int i=0;i<_cells->length();i++){
+    for(int i=0;i<_cells->size();i++){
         if(_cells->at(i)->getX() == coord[0] &&
                 _cells->at(i)->getY() == coord[1] &&
                 _cells->at(i)->getZ() == coord[2]) return false;
@@ -25,14 +25,14 @@ bool Environment::isPlaceFree(int coord[3]){
 bool Environment::run(){
     int index=0;
     while(true){
-        index = rand()*_cells->length();
+        index = rand()*_cells->size();
         _cells->at(index)->live();
     }
     return true;
 }
 
 void Environment::updateGraph(){
-    for(int i=0;i<_cells->length();i++){
+    for(int i=0;i<_cells->size();i++){
         _cells->at(i)->getX();
         _cells->at(i)->getY();
         _cells->at(i)->getZ();
