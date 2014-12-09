@@ -11,6 +11,10 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = LVB
 TEMPLATE = app
 
+INCLUDEPATH += /usr/local/include/vtk-5.10 \
+
+LIBS += -L/usr/local/lib/vtk-5.10 \
+        -lQVTK \
 
 SOURCES += main.cpp\
         widget.cpp \
