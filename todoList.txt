@@ -3,4 +3,5 @@ TODO :
 - Trouver comment choisir le comportement des cellules.
 - Vraiment impossible de simplifier le diagramme uml ?
     (genre on enleve la classe gene pour la transformer en attribut de la classe cell)
+    (Une classe peut etre un attribut, je voit pas le problème ni le problème que le diagramme soit un minimum complexe)Morgan
 
